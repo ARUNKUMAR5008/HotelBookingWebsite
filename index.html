@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link href="styles/common.css" rel="stylesheet"/>
+        <link href="styles/index.css" rel="stylesheet"/>
         <title>Index</title>
     </head>
     <body>
-        <div>
-            <header>
-                <img src="assests/images/logo.png" class="logo-img" height="150px" width="200px" alt="logo"/> 
+        <div class="container">
+            <header class="Header-Div">
+                <img src="assests/images/logo.png" class="logo-img" alt="logo"/> 
                  <a href="login.html" class="login-link" >Login</a>
             </header>
             <div class="Content-div">
@@ -14,32 +16,44 @@
 
                <div id="city-div">
                    <a href="list.html" >
-                   <img src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/a2/new-delhi.jpg" 
-                       width="300" height="300"/>
-                   </a>
-                   <img src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fc/f0/goa.jpg" 
-                       width="300" height="300"/>
-                   <img src="https://media-cdn.tripadvisor.com/media/photo-s/0f/98/f7/df/charminar.jpg" 
-                       width="300" height="300"/>
-                   <img src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/ac/kolkata-calcutta.jpg" 
-                       width="300" height="300"/>
+                    <img src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/a2/new-delhi.jpg" 
+                       class="city-img"
+                    />
+                    </a>
+                    <img src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fc/f0/goa.jpg" 
+                       class="city-img"
+                    />
+                    <img src="https://media-cdn.tripadvisor.com/media/photo-s/0f/98/f7/df/charminar.jpg" 
+                        class="city-img"
+                    />
+                    <img src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/ac/kolkata-calcutta.jpg" 
+                        class="city-img"
+                    />
 
                     <div>
                          <a href="index.html" >View more >></a>
                     </div>  
                 </div>       
             </div>
-            <footer>
-                <a href="contact.html" >Contact Us</a>  <br>
-                <a href="https://www.facebook.com"><img src="assests/images/facebook.png" 
-                    height="20" width="22" target="_blank"/></a>
-                <a href="https://www.instagram.com"><img src="assests/images/instagram.png" 
-                    height="20" width="22" target="_blank"/></a>
-                <a href="https://twitter.com"><img src="assests/images/twitter.png" 
-                    height="20" width="22" target="_blank"/></a>  
-                    <p id="copywright" >
+            <footer class="Footer-Div">
+                <a href="contact.html" >Contact Us</a>
+                <div class="social-media-imgs-div">
+                        <a href="https://www.facebook.com" target="_blank" >
+                          <img src="assests/images/facebook.png" 
+                              class="social-media-imgs" alt="Facebook"/>
+                        </a>
+                        <a href="https://www.instagram.com" target="_blank" >
+                          <img src="assests/images/instagram.png" 
+                              class="social-media-imgs" alt="Instagram"/>
+                        </a>
+                        <a href="https://twitter.com" target="_blank" >
+                          <img src="assests/images/twitter.png" 
+                              class="social-media-imgs" alt="Twitter"/>
+                        </a>
+                  </div>
+                    <p>
                         @2020 ROOM SEARCH PVT LTD.
-                    </p>
+                    </p>  
             </footer>
         </div>
     </body>
