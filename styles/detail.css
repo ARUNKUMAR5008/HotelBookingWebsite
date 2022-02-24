@@ -4,6 +4,7 @@
     margin-left: 4%;
     margin-right: 4%;
     margin-top: 2%;
+
   }
 
   .Content-Div {
@@ -24,3 +25,8 @@
     margin-top: 1%;
     margin-bottom: 2%;
   }
+
+.hotel-description p,
+.hotel-description ul {
+  font-weight: 500;
+}

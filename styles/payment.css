@@ -7,11 +7,16 @@
   .hotel_description {
     background-color: rgb(132, 136, 139);
   
-    max-width: 50%;
+    max-width: 70%;
     max-height: 20%;
     margin: 2% auto;
   }
   
+  .pay-now {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+  }
   
   .customer_details {
     margin: 2%;

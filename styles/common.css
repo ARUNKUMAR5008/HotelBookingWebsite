@@ -13,11 +13,45 @@ body {
   margin: 0px;
   min-height: 100%;
   background-color: #e0e0e0;
+  position: relative;
 }
 
 .Header-Div,
 .Footer-Div {
   background-color: rosybrown;
+  position: sticky;
+}
+
+.Header-Div {
+  top: 0;
+}
+
+.Footer-Div {
+  bottom: 0;
+}
+
+.login-link {
+  margin-right: 1rem;
+  font-weight: 600px;
+  color: black;
+  text-decoration: none;
+}
+
+#copywright {
+  font-size: 10px;
+  margin-bottom: 0%;
+}
+
+.contact-link {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+
+footer {
+  height: 2.6rem;
+  margin-top: 1rem;
+  padding-left: 1rem;
 }
 
 .container {
@@ -32,6 +66,20 @@ body {
 .social-media-imgs {
     max-width: 22px;
     height: 20px;
+}
+
+.social-media-imgs a:link {
+  margin-right: 0.2rem;
+}
+
+.hotel-img {
+  margin-right: 4%;
+  width: 100rem;
+  height: 100rem;
+}
+
+.hotel-img-div {
+  margin-top: 2.4rem;
 }
 
 .login-form {
