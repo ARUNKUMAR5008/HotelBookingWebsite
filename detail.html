@@ -29,13 +29,16 @@
 
             
             <div class="Content-div">
-                <div class="hotel-img-div"></div>
+              <div class="hotel-booking d-flex">  
+                <div class="hotel-img-div d-flex">
                    <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg"
                      alt="Radisson Blu Hotel" class="hotel-img"
-                   /> <br>
+                   /> 
                 </div>
-                 
-                <form action="payment.html" class="booking-form">
+                
+                <div class="payment-form d-flex justify-items-center">
+                  <form action="payment.html" class="booking-form">
+
                     <label for="Adults">Adults:</label>
                     <input type="number" id="Adults" name="Adults" min="1" 
                       oninvalid="this.setCustomValidity('value must be greater than or equal to 1')" 
@@ -53,15 +56,18 @@
                     <label for="total">Total:</label>
                     <input type="text" id="total" name="total" disabled required>
                     <br/>
-                    <input type="submit" value="book now"/>
-                </form>
+                    <input type="submit" value="book now" class="submit"/>
+                  </form>
+                </div>
+              </div> 
                  
-                <div class="hotel-description">
+              <div class="hotel-description">
                     <h2>Radisson Blu Hotel</h2>
 
-                    <p>RATING</p>
+                    <h6>RATING</h6>
                     <p>5 Star</p>
-                    <p>AMENITIES</p>
+                    <h6>AMENITIES</h6>
+
                     <ul>
                         <li>Room service</li>
                         <li>Restaurant</li>
@@ -70,18 +76,18 @@
                         <li>Pool</li>    
                     </ul>
 
-                    <h5>DESCRIPTION</h5><br>
+                    <h6>DESCRIPTION</h6>
                     <p>
                         Radisson Blu is an international chain of hotels operated by Radisson Hotels. 
                         With roots dating back to the 1960s, the Radisson Blu brand name came into existence in 
                         2009 with a rebranding from Radisson SAS. Its hotels are found in major cities, 
                         key airport gateways and leisure destinations.
                     </p>
-                </div>
+              </div>
             </div>
             <footer class="Footer-Div d-flex justify-content-between align-items-center">
                 <a href="contact.html" class="contact-link">Contact Us</a>
-                <p id="copywright" >
+                <p id="copywright" class="my-0">
                   @2020 ROOM SEARCH PVT LTD.
                 </p>
                 <div class="social-media-imgs d-flex align-items-center">
