@@ -1,7 +1,20 @@
 .hotel-img {
-    width: 250px;
-    height: 200px;
+  width: 15.625rem;
+  height: 12.5rem;
   }
+
+  .btn,
+  .btn:active,
+  .btn:focus {
+    box-shadow: none;
+    color: black;
+}
+
+.nav {
+  margin-top: 1rem;
+  margin-bottom: 1.2rem;
+}
+
  
 
 .hotel-div {
@@ -19,22 +32,10 @@
 }
 
 .view {
-  margin-top: 1rem;
-  margin-left: 0.4rem;
-  margin-bottom: 1.8rem;
-  list-style: none;
-  display: flex;
-  justify-content: center;
   margin: 2%;
 }
 
 .view li a {
-  text-decoration: none;
-
-  font-weight: bold;
-  display: inline-block;
-  margin: 0 1rem;
-  color: black;
   grid-template-columns: 1fr 1fr;
   justify-items: center;
   grid-row-gap: 1rem;
@@ -66,22 +67,22 @@
   text-decoration: none;
 }
 
-.btn,
-.btn:active,
-.btn:focus {
-  box-shadow: none;
-  color: black;
+.hotel-div:hover {
+  background-color: #bc8f8f;
 }
-
-.nav {
-  margin-top: 1rem;
-  margin-bottom: 1.2rem;
+.checked {
+  color: orange;
 }
 
 .map {
   height: 34rem;
 }
 
-.hotel-div:hover {
-  background-color: rosybrown;
+.Content-div {
+  min-height: 90vh;
+}
+
+.login-modal,
+.get-in-touch {
+  z-index: 3;
 }

@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
     <head>
+         <meta charset="utf-8" />
+         <meta name="viewport" content="width=device-width, initial-scale=1" />
+
          <link
             href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap"
             rel="stylesheet"
@@ -15,10 +18,11 @@
 
       <link href="styles/common.css" rel="stylesheet"/>
       <link href="styles/payment.css" rel="stylesheet"/>
+      <link href="styles/queries.css" rel="stylesheet"/>
         <title>Payment</title>
     </head>
     <body>
-        <div class="container">
+        <div class="payment-container container-fluid">
             <header class="Header-Div d-flex justify-content-between align-items-center">
               <a href="index.html">
                 <img src="assests/images/logo.png" class="logo-img" alt="logo"/> 
@@ -31,16 +35,16 @@
             </header>
             <div class="Content-Div  d-flex">
                 <div class="hotel_description  d-flex">
-                  <div class="hotel-img-div">
+                  <div class="hotel-img-div h-img-div-payment">
                     <img
                       src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg"
-                      alt="Radisson Blu Hotel"  class="hotel-img"
+                      alt="Radisson Blu Hotel"  class="hotel-img-payment"
                     />
                   </div>
                   <div class="hotel-description-content d-flex">
-                    <h2>Radisson Blu Hotel</h2>
-                    <p>#38 of 1,289 hotels in New Delhi</p>
-                    <p>National Highway 8, New Delhi 110017 India</p>
+                    <h2 class="d-flex">Radisson Blu Hotel</h2>
+                    <p class="d-flex">#38 of 1,289 hotels in New Delhi</p>
+                    <p class="d-flex">National Highway 8, New Delhi 110017 India</p>
                   </div>
                 </div>
                 <div class="payment_details d-flex">
@@ -65,7 +69,7 @@
               <footer class="Footer-Div d-flex justify-content-between align-items-center">
                 <button
                       type="button" onclick="handleContactUs(this)"
-                      class="btn btn-info d-flex align-items-center justify-content-center text-light"
+                      class="btn btn-info contact-button d-flex align-items-center justify-content-center text-light"
                 >
                 Contact Us
                 </button>
@@ -104,7 +108,7 @@
                                       <label for="email">Username </label>
                                     </div>
                                     <div class="col-8">
-                                      <input type="email" name="email" placeholder="Enter username" required />
+                                      <input type="email" name="email" placeholder="Enter Username" required />
                                     </div>
                                   </div>
                                   <br />

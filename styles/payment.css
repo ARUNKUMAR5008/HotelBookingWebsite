@@ -1,8 +1,3 @@
-.hotel-img {
-    width: 240px;
-    height: 216px;
-  }
-
   .hotel_description {
     background-color: rgb(132, 136, 139);
   
@@ -15,6 +10,11 @@
     text-decoration: none;
     color: black;
     font-weight: 500;
+  }
+
+  .hotel-img-payment {
+    width: 15rem;
+    height: 13.5rem;
   }
   
   .customer_details {
@@ -51,4 +51,7 @@
 
   .pay-now {
     pointer-events: none;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
   }

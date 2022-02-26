@@ -22,6 +22,6 @@ function handleView(event) {
       .classList.add("btn-primary");
 
     listView.style.display = "none";
-    mapView.style.display = "initial";
+    mapView.style.display = "block";
   }
 }
